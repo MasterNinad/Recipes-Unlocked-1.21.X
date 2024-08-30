@@ -1,5 +1,6 @@
 package com.masterninad.recipesunlocked;
 
+import com.masterninad.recipesunlocked.block.ModBlocks;
 import com.masterninad.recipesunlocked.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class RecipesUnlocked
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -56,6 +58,9 @@ public class RecipesUnlocked
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOTEM_HEAD);
+        }
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModBlocks.GUNPOWDER_BLOCK);
         }
     }
 
