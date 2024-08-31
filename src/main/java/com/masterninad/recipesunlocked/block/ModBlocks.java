@@ -20,7 +20,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GUNPOWDER_BLOCK = registerBlock("gunpowder_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).sound(SoundType.SAND)));
+                    .strength(0.5f).sound(SoundType.SAND)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

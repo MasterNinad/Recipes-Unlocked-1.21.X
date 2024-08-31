@@ -53,7 +53,7 @@ public class RecipesUnlocked
 
     }
 
-    // Add the masterninad block item to the building blocks tab
+    // Add the masterninad blocks item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
