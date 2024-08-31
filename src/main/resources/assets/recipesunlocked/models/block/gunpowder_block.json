@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "recipesunlocked_block/gunpowder_block"
+    "all": "recipesunlocked:block/gunpowder_block"
   }
 }
