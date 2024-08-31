@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "recipesunlocked:gunpowder_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 9
+  }
+}

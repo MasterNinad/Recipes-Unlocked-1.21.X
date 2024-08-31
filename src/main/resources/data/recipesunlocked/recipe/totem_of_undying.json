@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "recipesunlocked:totem_head"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

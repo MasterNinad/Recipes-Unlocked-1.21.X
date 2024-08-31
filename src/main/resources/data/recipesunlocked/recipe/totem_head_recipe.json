@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bab",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "id": "recipesunlocked:totem_head",
+    "count": 1
+  }
+}

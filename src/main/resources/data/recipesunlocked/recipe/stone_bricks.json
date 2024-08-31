@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cracked_repair",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "result": {
+    "id": "minecraft:stone_bricks",
+    "count": 1
+  }
+}
