@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "wooden_planks",
+  "group": "wooden_slabs",
   "category": "building",
   "ingredients": [
     {
