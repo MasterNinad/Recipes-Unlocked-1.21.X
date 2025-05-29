@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "saplings",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_leaves"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    }
+  ],
+  "result": {
+    "id": "minecraft:mangrove_propagule",
+    "count": 1
+  }
+}
