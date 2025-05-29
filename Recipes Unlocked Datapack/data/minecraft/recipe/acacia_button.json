@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "buttons",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:acacia_button",
+    "count": 2
+  }
+}

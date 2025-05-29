@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "buttons",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:crimson_button",
+    "count": 2
+  }
+}
